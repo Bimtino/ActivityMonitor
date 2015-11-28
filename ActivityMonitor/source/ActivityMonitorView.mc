@@ -12,6 +12,7 @@ class ActivityMonitorView extends Ui.DataField {
     hidden const HOT_FONT = Graphics.FONT_NUMBER_HOT;
     hidden const ZERO_TIME = "0:00";
     hidden const ZERO_DISTANCE = "0.0";
+    hidden const RELEASE = "1.0.2";
     
     hidden var kmOrMileInMeters = 1000;
     hidden var is24Hour = true;
@@ -187,10 +188,10 @@ class ActivityMonitorView extends Ui.DataField {
         dc.fillRectangle(0,185,218,33);
         
 		// battery
-        drawBattery(System.getSystemStats().battery, dc, 70, 192, 25, 15);
+        drawBattery(System.getSystemStats().battery, dc, 69, 191, 25, 15);
         
         // gps 
-		drawGps(dc, 124, 186);
+		drawGps(dc, 125, 185);
        
         // headers:
         dc.setColor(headerColor, Graphics.COLOR_TRANSPARENT);
@@ -200,6 +201,7 @@ class ActivityMonitorView extends Ui.DataField {
         dc.drawText(30, 169, HEADER_FONT, distanceUnits == System.UNIT_METRIC ? "km" : "mi", LEFT);
         dc.drawText(109, 169, HEADER_FONT, "rpm", CENTER);
         dc.drawText(188, 169, HEADER_FONT, durationStr, RIGHT);
+        dc.drawText(109, 212, HEADER_FONT, RELEASE, CENTER);
         
         //grid
         dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);

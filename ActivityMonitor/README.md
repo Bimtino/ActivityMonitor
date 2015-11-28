@@ -23,11 +23,12 @@ https://forums.garmin.com/showthread.php?........
 * SPEED: speed in km/h or mph based on system settings (as average of the last 10 values)
 * AVG SPEED: average speed over the whole activity.
 * DISTANCE: elapsed distance in km or miles based on system settings.
+* CADENCE: cadence in rpm.
 * DURATION: duration of the activity in [hh:]mm:ss
-* GPS: green/blue bars for poor/acceptable/good signal, gray if no signal.
+* GPS: green/dark green bars for poor/acceptable/good signal, gray if no signal.
 * battery: visualization of battery percentage as indicator bar. 
   If battery value is lower than 30 the indicator bar gets orange. If value is lower than 10% the exact value will be shown and the indicator bar turns red.
-* unit system in use: "(km)" will be shown when metric system is set in the settings, "(mi)" if statute (imperial) units are configured.
+* unit system in use: MKS unit system will be shown when metric system is set in the settings, Miles units if statute (imperial) units are configured.
 * use bright or dark color scheme based on the background color setting of the app (Settings/Apps/Run/Background Color).
   needs at least a firmware with SDK 1.2 compatibility (otherwise bright scheme is always used).
 
@@ -53,13 +54,14 @@ A Data Field needs to be set up within the settings for a given activity.
 
 ## Usage
 Start activity.
-Hopefully you see the ActivityMonitor datafield and can read the values.
+Hopefully you see the ActivityMonitor data field and can read the values.
 
 ===============================================
 
-## Changelog 1.0.0
+## Changelog 1.0.2
+Inital release of the activity monitor with following values:
 * Time of day (12/24 hours mode)
-* Current Speed (average over 10 seconds)
+* Current Speed (average over the last 10 values)
 * Average Speed
 * Heart Rate
 * Distance
