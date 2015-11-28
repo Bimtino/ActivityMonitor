@@ -1,8 +1,9 @@
 # ActivityMonitor
 
-![ActivityMonitor Screenshot White](/doc/ActivityMonitorMetricWB.png) ![ActivityMonitor Screenshot Black](/doc/ActivityMonitorMetricBB.png)
+![ActivityMonitor Screenshot White](doc/ActivityMonitorMetricWB.png) ![ActivityMonitor Screenshot Black](doc/ActivityMonitorStatuteBB.png)
 
 This is free a Data Field for the Fenix 3 that shows multiple values on a single field. 
+Focus of this Data Field is the representation of the control of training with heart rate, power(later release) and Cadence.
 ActivityMonitor is open source and its code resides at github: https://github.com/Bimtino/ActivityMonitor.git
 
 The Data Field is based on an other Data Fields. Special thanks for developers of the following ConnectIQ projects:

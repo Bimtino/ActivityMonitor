@@ -22,7 +22,7 @@ class ActivityMonitorView extends Ui.DataField {
     hidden var inverseBackgroundColor = Graphics.COLOR_BLACK;
     hidden var inactiveGpsBackground = Graphics.COLOR_LT_GRAY;
     hidden var batteryBackground = Graphics.COLOR_WHITE;
-    hidden var batteryColor1 = Graphics.COLOR_GREEN;
+    hidden var statusColorGood = Graphics.COLOR_GREEN;
     hidden var hrColor = Graphics.COLOR_RED;
     hidden var cadColor = Graphics.COLOR_BLUE;
     hidden var headerColor = Graphics.COLOR_DK_GRAY;
@@ -105,7 +105,7 @@ class ActivityMonitorView extends Ui.DataField {
             inverseBackgroundColor = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_DK_GRAY: Graphics.COLOR_BLACK;
             hrColor = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_RED : Graphics.COLOR_RED;
             headerColor = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_LT_GRAY: Graphics.COLOR_DK_GRAY;
-            batteryColor1 = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_BLUE : Graphics.COLOR_DK_GREEN;
+            statusColorGood = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_DK_GREEN : Graphics.COLOR_GREEN;
         }
     }
         
@@ -129,7 +129,7 @@ class ActivityMonitorView extends Ui.DataField {
         
         //speed
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(18, 72, VALUE_FONT, getSpeed(computeAverageSpeed()), LEFT);
+        dc.drawText(18, 72, VALUE_FONT, getSpeed(paceData.getAverageData()), LEFT);
         
         //hr
         dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
@@ -186,6 +186,7 @@ class ActivityMonitorView extends Ui.DataField {
         dc.setColor(inverseBackgroundColor, inverseBackgroundColor);
         dc.fillRectangle(0,185,218,33);
         
+		// battery
         drawBattery(System.getSystemStats().battery, dc, 70, 192, 25, 15);
         
         // gps 
@@ -194,7 +195,7 @@ class ActivityMonitorView extends Ui.DataField {
         // headers:
         dc.setColor(headerColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(30, 40, HEADER_FONT, distanceUnits == System.UNIT_METRIC ? "km/h" : "mph", LEFT);
-        dc.drawText(109, 32, HEADER_FONT, "ppm", CENTER); 
+        dc.drawText(109, 32, HEADER_FONT, "bpm", CENTER); 
         dc.drawText(188, 40, HEADER_FONT, avgSignStr + (distanceUnits == System.UNIT_METRIC ? " km/h" : " mph"), RIGHT);
         dc.drawText(30, 169, HEADER_FONT, distanceUnits == System.UNIT_METRIC ? "km" : "mi", LEFT);
         dc.drawText(109, 169, HEADER_FONT, "rpm", CENTER);
@@ -218,7 +219,7 @@ class ActivityMonitorView extends Ui.DataField {
         } else if (battery < 30) {
             dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
         } else {
-            dc.setColor(batteryColor1, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(statusColorGood, Graphics.COLOR_TRANSPARENT);
         }
         dc.fillRectangle(xStart + 1, yStart + 1, (width-2) * battery / 100, height - 2);
             
@@ -230,11 +231,11 @@ class ActivityMonitorView extends Ui.DataField {
         if (gpsSignal < 2) {
             drawGpsSign(dc, xStart, yStart, inactiveGpsBackground, inactiveGpsBackground, inactiveGpsBackground);
         } else if (gpsSignal == 2) {
-            drawGpsSign(dc, xStart, yStart, batteryColor1, inactiveGpsBackground, inactiveGpsBackground);
+            drawGpsSign(dc, xStart, yStart, statusColorGood, inactiveGpsBackground, inactiveGpsBackground);
         } else if (gpsSignal == 3) {          
-            drawGpsSign(dc, xStart, yStart, batteryColor1, batteryColor1, inactiveGpsBackground);
+            drawGpsSign(dc, xStart, yStart, statusColorGood, statusColorGood, inactiveGpsBackground);
         } else {
-            drawGpsSign(dc, xStart, yStart, batteryColor1, batteryColor1, batteryColor1);
+            drawGpsSign(dc, xStart, yStart, statusColorGood, statusColorGood, statusColorGood);
         }
     }
     
@@ -254,22 +255,6 @@ class ActivityMonitorView extends Ui.DataField {
         dc.drawRectangle(xStart + 13, yStart + 3, 8, 18);
         dc.setColor(color3, Graphics.COLOR_TRANSPARENT);
         dc.fillRectangle(xStart + 14, yStart + 4, 6, 16);
-    }
-    
-    function computeAverageSpeed() {
-        var size = 0;
-        var data = paceData.getData();
-        var sumOfData = 0.0;
-        for (var i = 0; i < data.size(); i++) {
-            if (data[i] != null) {
-                sumOfData = sumOfData + data[i];
-                size++;
-            }
-        }
-        if (sumOfData > 0) {
-            return sumOfData / size;
-        }
-        return 0.0;
     }
     
     function computeHour(hour) {
@@ -333,4 +318,20 @@ class DataQueue {
         return data;
     }
 
+	// calculate the avarage of the data
+    function getAverageData() {
+        var size = 0;
+        var sumOfData = 0.0;
+        for (var i = 0; i < data.size(); i++) {
+            if (data[i] != null) {
+                sumOfData = sumOfData + data[i];
+                size++;
+            }
+        }
+        if (sumOfData > 0) {
+            return sumOfData / size;
+        }
+        return 0.0;
+    }
+    
 }

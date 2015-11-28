@@ -46,156 +46,155 @@
 <entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="128" pc="268436811" symbol="drawValues"/>
 <entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="131" pc="268436851" symbol="drawValues"/>
 <entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="132" pc="268436883" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="135" pc="268436943" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="136" pc="268436975" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="139" pc="268437035" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="140" pc="268437067" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="143" pc="268437124" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="144" pc="268437124" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="145" pc="268437141" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="146" pc="268437160" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="147" pc="268437171" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="149" pc="268437192" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="152" pc="268437213" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="154" pc="268437223" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="157" pc="268437263" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="158" pc="268437295" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="161" pc="268437355" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="162" pc="268437355" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="163" pc="268437388" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="164" pc="268437391" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="165" pc="268437413" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="167" pc="268437435" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="168" pc="268437446" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="169" pc="268437456" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="172" pc="268437469" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="173" pc="268437476" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="174" pc="268437517" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="176" pc="268437533" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="177" pc="268437597" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="180" pc="268437613" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="182" pc="268437623" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="183" pc="268437655" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="186" pc="268437695" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="187" pc="268437723" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="189" pc="268437755" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="192" pc="268437810" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="195" pc="268437834" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="196" pc="268437866" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="197" pc="268437941" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="198" pc="268437984" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="199" pc="268438068" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="200" pc="268438143" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="201" pc="268438186" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="204" pc="268438232" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="205" pc="268438268" symbol="drawValues"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="209" pc="268438309" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="210" pc="268438337" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="211" pc="268438357" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="212" pc="268438368" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="213" pc="268438404" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="216" pc="268438506" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="217" pc="268438517" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="219" pc="268438567" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="221" pc="268438606" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="223" pc="268438638" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="225" pc="268438691" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="226" pc="268438719" symbol="drawBattery"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="230" pc="268438766" symbol="drawGps"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="231" pc="268438783" symbol="drawGps"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="233" pc="268438845" symbol="drawGps"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="235" pc="268438907" symbol="drawGps"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="237" pc="268438952" symbol="drawGps"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="243" pc="268438997" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="244" pc="268439033" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="245" pc="268439071" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="246" pc="268439097" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="248" pc="268439129" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="249" pc="268439165" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="250" pc="268439203" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="251" pc="268439229" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="253" pc="268439267" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="254" pc="268439303" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="255" pc="268439341" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="256" pc="268439367" symbol="drawGpsSign"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="260" pc="268439408" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="261" pc="268439415" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="262" pc="268439434" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="263" pc="268439441" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="264" pc="268439465" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="265" pc="268439475" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="266" pc="268439485" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="269" pc="268439511" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="270" pc="268439522" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="272" pc="268439531" symbol="computeAverageSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="276" pc="268439540" symbol="computeHour"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="277" pc="268439551" symbol="computeHour"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="279" pc="268439563" symbol="computeHour"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="280" pc="268439574" symbol="computeHour"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="282" pc="268439586" symbol="computeHour"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="287" pc="268439592" symbol="toNumberCeil"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="288" pc="268439605" symbol="toNumberCeil"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="289" pc="268439619" symbol="toNumberCeil"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="291" pc="268439631" symbol="toNumberCeil"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="295" pc="268439637" symbol="getSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="296" pc="268439658" symbol="getSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="297" pc="268439683" symbol="getSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="299" pc="268439703" symbol="getSpeed"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="7" pc="268440227" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="8" pc="268440260" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="9" pc="268440293" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="10" pc="268440326" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="11" pc="268440346" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="12" pc="268440366" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="17" pc="268440386" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="18" pc="268440396" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="19" pc="268440416" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="20" pc="268440436" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="21" pc="268440456" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="22" pc="268440476" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="23" pc="268440496" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="24" pc="268440516" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="25" pc="268440536" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="26" pc="268440556" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="27" pc="268440576" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="28" pc="268440596" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="32" pc="268440616" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="40" pc="268440651" symbol="&lt;init&gt;"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="313" pc="268439715" symbol="initialize"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="314" pc="268439726" symbol="initialize"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="319" pc="268439739" symbol="add"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="320" pc="268439758" symbol="add"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="325" pc="268439792" symbol="reset"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="326" pc="268439822" symbol="reset"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="328" pc="268439847" symbol="reset"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="333" pc="268439863" symbol="getData"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitor.mc" lineNum="6" pc="268439875" symbol="initialize"/>
-<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitor.mc" lineNum="19" pc="268439902" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268439992" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="6" pc="268440001" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="7" pc="268440010" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="8" pc="268440019" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="9" pc="268440028" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268440037" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="11" pc="268440046" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="12" pc="268440055" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="13" pc="268440064" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="14" pc="268440073" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="15" pc="268440082" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="16" pc="268440091" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="17" pc="268440100" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="18" pc="268440109" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="19" pc="268440118" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="20" pc="268440127" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="21" pc="268440136" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="22" pc="268440145" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="23" pc="268440154" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="24" pc="268440163" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="25" pc="268440172" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="26" pc="268440181" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="27" pc="268440190" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="28" pc="268440199" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="33" pc="268439979" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="135" pc="268436949" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="136" pc="268436981" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="139" pc="268437041" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="140" pc="268437073" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="143" pc="268437130" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="144" pc="268437130" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="145" pc="268437147" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="146" pc="268437166" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="147" pc="268437177" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="149" pc="268437198" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="152" pc="268437219" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="154" pc="268437229" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="157" pc="268437269" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="158" pc="268437301" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="161" pc="268437361" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="162" pc="268437361" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="163" pc="268437394" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="164" pc="268437397" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="165" pc="268437419" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="167" pc="268437441" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="168" pc="268437452" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="169" pc="268437462" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="172" pc="268437475" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="173" pc="268437482" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="174" pc="268437523" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="176" pc="268437539" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="177" pc="268437603" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="180" pc="268437619" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="182" pc="268437629" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="183" pc="268437661" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="186" pc="268437701" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="187" pc="268437729" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="190" pc="268437761" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="193" pc="268437816" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="196" pc="268437840" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="197" pc="268437872" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="198" pc="268437947" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="199" pc="268437990" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="200" pc="268438074" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="201" pc="268438149" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="202" pc="268438192" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="205" pc="268438238" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="206" pc="268438274" symbol="drawValues"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="210" pc="268438315" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="211" pc="268438343" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="212" pc="268438363" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="213" pc="268438374" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="214" pc="268438410" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="217" pc="268438512" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="218" pc="268438523" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="220" pc="268438573" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="222" pc="268438612" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="224" pc="268438644" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="226" pc="268438697" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="227" pc="268438725" symbol="drawBattery"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="231" pc="268438772" symbol="drawGps"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="232" pc="268438789" symbol="drawGps"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="234" pc="268438851" symbol="drawGps"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="236" pc="268438913" symbol="drawGps"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="238" pc="268438958" symbol="drawGps"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="244" pc="268439003" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="245" pc="268439039" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="246" pc="268439077" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="247" pc="268439103" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="249" pc="268439135" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="250" pc="268439171" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="251" pc="268439209" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="252" pc="268439235" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="254" pc="268439273" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="255" pc="268439309" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="256" pc="268439347" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="257" pc="268439373" symbol="drawGpsSign"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="261" pc="268439414" symbol="computeHour"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="262" pc="268439425" symbol="computeHour"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="264" pc="268439437" symbol="computeHour"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="265" pc="268439448" symbol="computeHour"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="267" pc="268439460" symbol="computeHour"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="272" pc="268439466" symbol="toNumberCeil"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="273" pc="268439479" symbol="toNumberCeil"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="274" pc="268439493" symbol="toNumberCeil"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="276" pc="268439505" symbol="toNumberCeil"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="280" pc="268439511" symbol="getSpeed"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="281" pc="268439532" symbol="getSpeed"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="282" pc="268439557" symbol="getSpeed"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="284" pc="268439577" symbol="getSpeed"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="7" pc="268440232" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="8" pc="268440265" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="9" pc="268440298" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="10" pc="268440331" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="11" pc="268440351" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="12" pc="268440371" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="17" pc="268440391" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="18" pc="268440401" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="19" pc="268440421" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="20" pc="268440441" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="21" pc="268440461" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="22" pc="268440481" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="23" pc="268440501" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="24" pc="268440521" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="25" pc="268440541" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="26" pc="268440561" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="27" pc="268440581" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="28" pc="268440601" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="32" pc="268440621" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="40" pc="268440656" symbol="&lt;init&gt;"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="298" pc="268439589" symbol="initialize"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="299" pc="268439600" symbol="initialize"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="304" pc="268439613" symbol="add"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="305" pc="268439632" symbol="add"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="310" pc="268439666" symbol="reset"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="311" pc="268439696" symbol="reset"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="313" pc="268439721" symbol="reset"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="318" pc="268439737" symbol="getData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="323" pc="268439749" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="324" pc="268439756" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="325" pc="268439763" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="326" pc="268439793" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="327" pc="268439809" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="328" pc="268439825" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="331" pc="268439851" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="332" pc="268439862" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitorView.mc" lineNum="334" pc="268439871" symbol="getAverageData"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitor.mc" lineNum="6" pc="268439880" symbol="initialize"/>
+<entry filename="/Users/hans/Documents/git/ActivityMonitor/ActivityMonitor/source/ActivityMonitor.mc" lineNum="19" pc="268439907" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268439997" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="6" pc="268440006" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="7" pc="268440015" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="8" pc="268440024" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="9" pc="268440033" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268440042" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="11" pc="268440051" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="12" pc="268440060" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="13" pc="268440069" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="14" pc="268440078" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="15" pc="268440087" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="16" pc="268440096" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="17" pc="268440105" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="18" pc="268440114" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="19" pc="268440123" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="20" pc="268440132" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="21" pc="268440141" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="22" pc="268440150" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="23" pc="268440159" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="24" pc="268440168" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="25" pc="268440177" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="26" pc="268440186" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="27" pc="268440195" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="28" pc="268440204" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="33" pc="268439984" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -210,7 +209,7 @@
 <entry field="true" id="8388737" symbol="calories"/>
 <entry field="true" id="8389205" symbol="MSG_ID_CHANNEL_TRANSMIT_POWER"/>
 <entry id="8389060" object="true" symbol="Text"/>
-<entry id="43" symbol="avgPaceStr"/>
+<entry id="44" symbol="avgPaceStr"/>
 <entry id="8389051" method="true" symbol="switchToView"/>
 <entry id="8388638" module="true" symbol="ActivityRecording"/>
 <entry id="8388635" module="true" symbol="Application"/>
@@ -247,15 +246,15 @@
 <entry id="8389358" symbol="&lt;deu&gt;"/>
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
+<entry id="15" method="true" symbol="getAverageData"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="15" module="true" symbol="Menus"/>
+<entry id="16" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
 <entry id="8388821" method="true" symbol="getMailbox"/>
 <entry id="8388957" method="true" symbol="enableSensorEvents"/>
 <entry field="true" id="8388811" symbol="INVALID_HTTP_BODY_IN_REQUEST"/>
-<entry id="38" symbol="batteryColor1"/>
 <entry field="true" id="8388750" symbol="currentCadence"/>
 <entry id="8388629" module="true" symbol="Toybox_Application"/>
 <entry field="true" id="8389649" symbol="activityTrackingOn"/>
@@ -267,7 +266,7 @@
 <entry id="8388663" method="true" symbol="testAdd"/>
 <entry id="8389661" symbol="maxWidth"/>
 <entry id="8389119" method="true" symbol="getDirection"/>
-<entry id="51" symbol="gpsSignal"/>
+<entry id="52" symbol="gpsSignal"/>
 <entry field="true" id="8389475" symbol="rightPedalSmoothness"/>
 <entry id="8389101" method="true" symbol="onSwipe"/>
 <entry id="8389247" symbol="measurementType"/>
@@ -300,7 +299,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="21" symbol="AppName"/>
+<entry field="true" id="22" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -319,7 +318,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry field="true" id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="17" symbol="LauncherIcon"/>
+<entry field="true" id="18" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -341,10 +340,10 @@
 <entry id="8389118" symbol="mDirection"/>
 <entry field="true" id="8389103" symbol="behavior"/>
 <entry id="8389252" method="true" symbol="setPayload"/>
-<entry id="36" symbol="inactiveGpsBackground"/>
+<entry id="37" symbol="inactiveGpsBackground"/>
 <entry id="8389108" method="true" symbol="onResponse"/>
 <entry field="true" id="8389506" symbol="age"/>
-<entry id="47" symbol="cadenceStr"/>
+<entry id="48" symbol="cadenceStr"/>
 <entry field="true" id="8389503" symbol="pedalPowerPercent"/>
 <entry field="true" id="8388963" symbol="altitude"/>
 <entry field="true" id="8389200" symbol="MSG_ID_CHANNEL_PERIOD"/>
@@ -402,7 +401,7 @@
 <entry field="true" id="8388997" symbol="KEY_MENU"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389497" symbol="bodyFatPercentage"/>
-<entry id="57" method="true" symbol="drawGps"/>
+<entry id="58" method="true" symbol="drawGps"/>
 <entry id="8388798" method="true" symbol="toLower"/>
 <entry field="true" id="8388735" symbol="currentLocationAccuracy"/>
 <entry id="8388677" method="true" symbol="testTypeConversion"/>
@@ -458,7 +457,7 @@
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
 <entry id="8389628" method="true" symbol="getDrawable"/>
-<entry id="16" module="true" symbol="Layouts"/>
+<entry id="17" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389632" symbol="CHANNEL_TYPE_RX_ONLY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -491,7 +490,7 @@
 <entry id="8389191" method="true" symbol="getTextDimensions"/>
 <entry field="true" id="8389037" symbol="NUMBER_PICKER_WEIGHT"/>
 <entry field="true" id="8389406" symbol="heightUnits"/>
-<entry field="true" id="22" symbol="avgpace"/>
+<entry field="true" id="23" symbol="avgpace"/>
 <entry id="8389329" symbol="november"/>
 <entry id="8389325" symbol="july"/>
 <entry field="true" id="8388959" symbol="cadence"/>
@@ -515,7 +514,7 @@
 <entry id="8389603" symbol="mWhen"/>
 <entry id="8389355" symbol="&lt;eng&gt;"/>
 <entry field="true" id="8388860" symbol="SUB_SPORT_RECUMBENT"/>
-<entry id="34" symbol="backgroundColor"/>
+<entry id="35" symbol="backgroundColor"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8388960" symbol="heartRate"/>
 <entry field="true" id="8389445" symbol="WEIGHT_SCALE_GENDER_CNT"/>
@@ -557,7 +556,7 @@
 <entry field="true" id="8389159" symbol="COLOR_DK_GRAY"/>
 <entry id="8389375" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389498" symbol="bodyWeight"/>
-<entry id="44" symbol="hrStr"/>
+<entry id="45" symbol="hrStr"/>
 <entry id="8389435" object="true" symbol="CalculatedWheelDistance"/>
 <entry field="true" id="8389442" symbol="WEIGHT_SCALE_GENDER_FEMALE"/>
 <entry field="true" id="8389561" symbol="KEY_SPORT"/>
@@ -573,7 +572,7 @@
 <entry field="true" id="8388893" symbol="PI"/>
 <entry id="8389344" symbol="seconds"/>
 <entry field="true" id="8388854" symbol="SUB_SPORT_TRACK"/>
-<entry id="24" symbol="LEFT"/>
+<entry id="25" symbol="LEFT"/>
 <entry id="8389432" object="true" symbol="CalculatedCrankCadence"/>
 <entry field="true" id="8388651" symbol="session"/>
 <entry field="true" id="8388868" symbol="SUB_SPORT_OPEN_WATER"/>
@@ -581,7 +580,6 @@
 <entry id="8389602" method="true" symbol="deleteAll"/>
 <entry id="8388925" symbol="monthHash"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
-<entry id="59" method="true" symbol="computeAverageSpeed"/>
 <entry id="8388987" method="true" symbol="vibrate"/>
 <entry id="8388905" method="true" symbol="tan"/>
 <entry id="8388766" object="true" symbol="Array"/>
@@ -630,7 +628,7 @@
 <entry field="true" id="8389499" symbol="boneMass"/>
 <entry field="true" id="8388835" symbol="SPORT_SWIMMING"/>
 <entry id="8388796" method="true" symbol="find"/>
-<entry id="42" symbol="paceStr"/>
+<entry id="43" symbol="paceStr"/>
 <entry field="true" id="8388914" symbol="moveBarLevel"/>
 <entry field="true" id="8389202" symbol="MSG_ID_CHANNEL_RF_FREQUENCY"/>
 <entry id="8388933" method="true" symbol="moment"/>
@@ -666,7 +664,7 @@
 <entry id="8388826" method="true" symbol="next"/>
 <entry id="8389587" method="true" symbol="getErrorMessage"/>
 <entry id="8388792" method="true" symbol="isEmpty"/>
-<entry id="50" symbol="avgSpeed"/>
+<entry id="51" symbol="avgSpeed"/>
 <entry id="8389357" symbol="&lt;fre&gt;"/>
 <entry field="true" id="8389495" symbol="activeMetabolicRate"/>
 <entry field="true" id="8388998" symbol="KEY_DOWN"/>
@@ -686,7 +684,7 @@
 <entry id="8389283" method="true" symbol="setProperty"/>
 <entry field="true" id="8389089" symbol="MAX_SIZE"/>
 <entry field="true" id="8389401" symbol="is24Hour"/>
-<entry id="35" symbol="inverseBackgroundColor"/>
+<entry id="36" symbol="inverseBackgroundColor"/>
 <entry id="8389464" object="true" symbol="WeightScaleBasicReading"/>
 <entry field="true" id="8389145" symbol="wakeTime"/>
 <entry field="true" id="8388938" symbol="month"/>
@@ -766,7 +764,7 @@
 <entry id="8388617" module="true" symbol="Toybox_ActivityRecording"/>
 <entry id="8388986" object="true" symbol="VibeProfile"/>
 <entry id="8389014" object="true" symbol="ClickEvent"/>
-<entry id="55" method="true" symbol="drawValues"/>
+<entry id="56" method="true" symbol="drawValues"/>
 <entry field="true" id="8388732" symbol="elapsedTime"/>
 <entry field="true" id="8389636" symbol="DEFAULT_NETWORK_KEY"/>
 <entry id="8389256" method="true" symbol="open"/>
@@ -792,7 +790,7 @@
 <entry id="8388741" symbol="currentPace"/>
 <entry field="true" id="8389415" symbol="BATT_STATUS_CRITICAL"/>
 <entry id="8389058" object="true" symbol="Drawable"/>
-<entry id="49" symbol="paceData"/>
+<entry id="50" symbol="paceData"/>
 <entry field="true" id="8389013" symbol="CLICK_TYPE_RELEASE"/>
 <entry field="true" id="8389077" symbol="BEHAVIOR_ON_PREVIOUS_MODE"/>
 <entry id="8389319" symbol="january"/>
@@ -800,7 +798,7 @@
 <entry field="true" id="8389151" symbol="birthYear"/>
 <entry id="8389331" symbol="sunday"/>
 <entry field="true" id="8389173" symbol="TEXT_JUSTIFY_CENTER"/>
-<entry field="true" id="19" symbol="pace"/>
+<entry field="true" id="20" symbol="pace"/>
 <entry id="8389070" method="true" symbol="setSize"/>
 <entry id="8388712" method="true" symbol="print"/>
 <entry field="true" id="8388695" symbol="count2"/>
@@ -840,12 +838,12 @@
 <entry field="true" id="8389174" symbol="TEXT_JUSTIFY_LEFT"/>
 <entry id="8388923" method="true" symbol="today"/>
 <entry field="true" id="8389412" symbol="BATT_STATUS_GOOD"/>
-<entry id="32" symbol="textColor"/>
+<entry id="33" symbol="textColor"/>
 <entry field="true" id="8389222" symbol="MSG_CODE_EVENT_CHANNEL_CLOSED"/>
 <entry field="true" id="8389505" symbol="userProfileId"/>
 <entry id="8388679" method="true" symbol="testObjectLock"/>
 <entry id="8389095" method="true" symbol="addItem"/>
-<entry id="54" method="true" symbol="setColors"/>
+<entry id="55" method="true" symbol="setColors"/>
 <entry field="true" id="8389157" symbol="COLOR_WHITE"/>
 <entry field="true" id="8389550" symbol="PRESS_TYPE_DOWN"/>
 <entry field="true" id="8389165" symbol="COLOR_GREEN"/>
@@ -858,7 +856,7 @@
 <entry field="true" id="8389405" symbol="weightUnits"/>
 <entry field="true" id="8389198" symbol="MSG_ID_ASSIGN_CHANNEL"/>
 <entry field="true" id="8388850" symbol="SUB_SPORT_GENERIC"/>
-<entry id="25" symbol="RIGHT"/>
+<entry id="26" symbol="RIGHT"/>
 <entry id="8388818" method="true" symbol="makeJsonRequestNative"/>
 <entry id="8389335" symbol="thursday"/>
 <entry id="8389185" method="true" symbol="fillCircle"/>
@@ -884,9 +882,9 @@
 <entry field="true" id="8389215" symbol="MSG_CODE_RESPONSE_NO_ERROR"/>
 <entry id="8389477" symbol="mDeviceType"/>
 <entry id="8389242" symbol="dataHigh"/>
-<entry id="46" symbol="durationStr"/>
+<entry id="47" symbol="durationStr"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry id="26" symbol="HEADER_FONT"/>
+<entry id="27" symbol="HEADER_FONT"/>
 <entry field="true" id="8388843" symbol="SPORT_ALPINE_SKIING"/>
 <entry field="true" id="8389262" symbol="DEFAULT_DEVICE_NUMBER"/>
 <entry field="true" id="8389543" symbol="phoneConnected"/>
@@ -924,11 +922,11 @@
 <entry id="8388715" method="true" symbol="getSystemStats"/>
 <entry id="8389516" method="true" symbol="getPedalPowerBalance"/>
 <entry id="8388624" module="true" symbol="Toybox_Attention"/>
-<entry id="41" symbol="headerColor"/>
+<entry id="42" symbol="headerColor"/>
 <entry field="true" id="8389017" symbol="SWIPE_DOWN"/>
 <entry id="8388656" object="true" symbol="InputDelegate"/>
 <entry field="true" id="8388720" symbol="hour"/>
-<entry id="27" symbol="VALUE_FONT"/>
+<entry id="28" symbol="VALUE_FONT"/>
 <entry id="8389134" method="true" symbol="setText"/>
 <entry id="8389255" method="true" symbol="setDeviceConfig"/>
 <entry id="8388909" method="true" symbol="getInfo"/>
@@ -950,7 +948,7 @@
 <entry id="8388781" method="true" symbol="hashCode"/>
 <entry field="true" id="8389669" symbol="BUTTON_INPUT_MENU"/>
 <entry id="8389317" symbol="degrees"/>
-<entry id="28" symbol="HOT_FONT"/>
+<entry id="29" symbol="HOT_FONT"/>
 <entry field="true" id="8389640" symbol="networkKey128Bit"/>
 <entry id="8388636" module="true" symbol="Attention"/>
 <entry field="true" id="8389531" symbol="antfsSupport"/>
@@ -958,7 +956,7 @@
 <entry field="true" id="8388972" symbol="TONE_LOUD_BEEP"/>
 <entry field="true" id="8389140" symbol="GENDER_MALE"/>
 <entry id="8389539" symbol="mInitialText"/>
-<entry id="23" symbol="CENTER"/>
+<entry id="24" symbol="CENTER"/>
 <entry field="true" id="8388965" symbol="heading"/>
 <entry id="8388787" method="true" symbol="equals"/>
 <entry field="true" id="8389144" symbol="gender"/>
@@ -974,7 +972,7 @@
 <entry id="8389514" method="true" symbol="getCalculatedWheelDistance"/>
 <entry id="8388985" method="true" symbol="playTone"/>
 <entry field="true" id="8388736" symbol="currentLocation"/>
-<entry id="39" symbol="hrColor"/>
+<entry id="40" symbol="hrColor"/>
 <entry field="true" id="8388916" symbol="startOfDay"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
 <entry id="8389338" symbol="minute"/>
@@ -1001,7 +999,7 @@
 <entry id="8388698" method="true" symbol="start"/>
 <entry field="true" id="8389454" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_CNT"/>
 <entry id="8389655" method="true" symbol="stillAlive"/>
-<entry id="40" symbol="cadColor"/>
+<entry id="41" symbol="cadColor"/>
 <entry field="true" id="8388813" symbol="NETWORK_REQUEST_TIMED_OUT"/>
 <entry id="8389323" symbol="may"/>
 <entry field="true" id="8388930" symbol="SECONDS_PER_MINUTE"/>
@@ -1028,14 +1026,14 @@
 <entry id="8389111" symbol="mY"/>
 <entry field="true" id="8389009" symbol="ANIM_TYPE_EASE_IN_OUT"/>
 <entry id="8389110" symbol="mX"/>
-<entry id="31" symbol="kmOrMileInMeters"/>
+<entry id="32" symbol="kmOrMileInMeters"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry id="9" object="true" symbol="DataQueue"/>
 <entry field="true" id="8388812" symbol="INVALID_HTTP_METHOD_IN_REQUEST"/>
 <entry id="8389182" method="true" symbol="drawRoundedRectangle"/>
 <entry field="true" id="8389297" symbol="QUALITY_GOOD"/>
 <entry field="true" id="8389613" symbol="LAYOUT_HALIGN_CENTER"/>
-<entry id="29" symbol="ZERO_TIME"/>
+<entry id="30" symbol="ZERO_TIME"/>
 <entry field="true" id="8389472" symbol="rightTorqueEffectiveness"/>
 <entry field="true" id="8389228" symbol="MSG_CODE_EVENT_QUE_OVERFLOW"/>
 <entry field="true" id="8388832" symbol="SPORT_CYCLING"/>
@@ -1082,7 +1080,7 @@
 <entry field="true" id="8389160" symbol="COLOR_BLACK"/>
 <entry id="8389121" method="true" symbol="findDrawableById"/>
 <entry field="true" id="8388849" symbol="SPORT_PADDLING"/>
-<entry id="52" symbol="hasBackgroundColorOption"/>
+<entry id="53" symbol="hasBackgroundColorOption"/>
 <entry field="true" id="8389315" symbol="longitude"/>
 <entry field="true" id="8389518" symbol="wheelDistance"/>
 <entry id="8389308" method="true" symbol="toRadians"/>
@@ -1097,7 +1095,7 @@
 <entry field="true" id="8389263" symbol="DEFAULT_DEVICE_TYPE"/>
 <entry id="8388728" method="true" symbol="getActivityInfo"/>
 <entry field="true" id="8388751" symbol="averageCadence"/>
-<entry id="33" symbol="inverseTextColor"/>
+<entry id="34" symbol="inverseTextColor"/>
 <entry field="true" id="8389473" symbol="separatePedalSmoothnessSupport"/>
 <entry field="true" id="8388697" symbol="timer2"/>
 <entry id="8389326" symbol="august"/>
@@ -1123,9 +1121,9 @@
 <entry field="true" id="8389639" symbol="networkKey64Bit"/>
 <entry id="8389179" method="true" symbol="drawEllipse"/>
 <entry field="true" id="8389379" symbol="OBSCURE_LEFT"/>
-<entry field="true" id="18" symbol="hr"/>
+<entry field="true" id="19" symbol="hr"/>
 <entry id="8388820" object="true" symbol="MailboxIterator"/>
-<entry id="58" method="true" symbol="drawGpsSign"/>
+<entry id="59" method="true" symbol="drawGpsSign"/>
 <entry field="true" id="8388917" symbol="FORMAT_SHORT"/>
 <entry field="true" id="8389664" symbol="SCREEN_SHAPE_SEMI_ROUND"/>
 <entry id="8388791" method="true" symbol="remove"/>
@@ -1150,7 +1148,7 @@
 <entry id="8389373" symbol="&lt;jpn&gt;"/>
 <entry id="8388762" object="true" symbol="Boolean"/>
 <entry field="true" id="8389164" symbol="COLOR_YELLOW"/>
-<entry id="45" symbol="distanceStr"/>
+<entry id="46" symbol="distanceStr"/>
 <entry field="true" id="8388907" symbol="MOVE_BAR_LEVEL_MIN"/>
 <entry id="8388674" method="true" symbol="testGreaterThan"/>
 <entry id="8389120" symbol="mLayout"/>
@@ -1161,7 +1159,7 @@
 <entry id="8389626" method="true" symbol="onAccept"/>
 <entry id="8389356" symbol="&lt;fin&gt;"/>
 <entry id="8389276" object="true" symbol="AppBase"/>
-<entry id="56" method="true" symbol="drawBattery"/>
+<entry id="57" method="true" symbol="drawBattery"/>
 <entry id="8389657" symbol="maxHeight"/>
 <entry id="8389698" object="true" symbol="UnableToAcquireChannelException"/>
 <entry id="8389510" symbol="DEVICE_TYPE_BIKE_POWER"/>
@@ -1172,12 +1170,13 @@
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389092" symbol="mSize"/>
 <entry field="true" id="8389067" symbol="height"/>
+<entry id="39" symbol="statusColorGood"/>
 <entry id="8389480" method="true" symbol="getDeviceNumber"/>
 <entry field="true" id="8389302" symbol="LOCATION_DISABLE"/>
 <entry field="true" id="8389162" symbol="COLOR_DK_RED"/>
 <entry id="8389512" method="true" symbol="getCalculatedPower"/>
 <entry field="true" id="8388872" symbol="SUB_SPORT_MATCH"/>
-<entry id="53" method="true" symbol="setDeviceSettingsDependentVariables"/>
+<entry id="54" method="true" symbol="setDeviceSettingsDependentVariables"/>
 <entry id="8389567" method="true" symbol="getNumberOfTests"/>
 <entry field="true" id="8389456" symbol="WEIGHT_SCALE_STATUS_SEARCHING"/>
 <entry id="8389600" method="true" symbol="getMaxEvents"/>
@@ -1189,7 +1188,7 @@
 <entry id="8389309" method="true" symbol="toGeoString"/>
 <entry id="8388690" method="true" symbol="testMoment"/>
 <entry id="8389024" object="true" symbol="DataField"/>
-<entry id="48" symbol="avgSignStr"/>
+<entry id="49" symbol="avgSignStr"/>
 <entry field="true" id="8389482" symbol="powerSensorType"/>
 <entry id="8389062" symbol="mInitialValue"/>
 <entry field="true" id="8389651" symbol="trainingEffect"/>
@@ -1213,7 +1212,7 @@
 <entry field="true" id="8389614" symbol="LAYOUT_HALIGN_START"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
-<entry id="30" symbol="ZERO_DISTANCE"/>
+<entry id="31" symbol="ZERO_DISTANCE"/>
 <entry field="true" id="8389668" symbol="BUTTON_INPUT_DOWN"/>
 <entry id="8389253" symbol="setPayloadWithOffset"/>
 <entry id="8389479" method="true" symbol="getDeviceState"/>
@@ -1250,7 +1249,7 @@
 <entry field="true" id="8389030" symbol="CONFIRM_YES"/>
 <entry id="8389545" symbol="mWidth"/>
 <entry field="true" id="8388753" symbol="swimStrokeType"/>
-<entry id="37" symbol="batteryBackground"/>
+<entry id="38" symbol="batteryBackground"/>
 <entry field="true" id="8388978" symbol="TONE_TIME_ALERT"/>
 <entry field="true" id="8389422" symbol="DEVICE_STATE_TRACKING"/>
 <entry field="true" id="8388795" method="true" symbol="length"/>
@@ -1303,7 +1302,7 @@
 <entry field="true" id="8389507" symbol="activityLevel"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8389333" symbol="tuesday"/>
-<entry field="true" id="20" symbol="avgSign"/>
+<entry field="true" id="21" symbol="avgSign"/>
 <entry field="true" id="8389018" symbol="SWIPE_LEFT"/>
 <entry id="8388682" method="true" symbol="testNaN"/>
 <entry field="true" id="8389444" symbol="WEIGHT_SCALE_GENDER_UNASSIGNED"/>
@@ -1318,22 +1317,21 @@
 <entry field="true" id="8389431" symbol="BIKE_POWER_SENSOR_TYPE_CNT"/>
 </symbolTable>
 <localVars>
-<entry endPc="268437210" name="distanceKmOrMiles" stackId="6" startPc="268437141"/>
-<entry endPc="268437610" name="hours" stackId="8" startPc="268437388"/>
-<entry endPc="268437610" name="minutes" stackId="9" startPc="268437388"/>
-<entry endPc="268437610" name="seconds" stackId="10" startPc="268437388"/>
-<entry endPc="268438306" name="ampm" stackId="4" startPc="268436502"/>
-<entry endPc="268438306" name="clockTime" stackId="2" startPc="268436502"/>
-<entry endPc="268438306" name="duration" stackId="7" startPc="268436502"/>
-<entry endPc="268438306" name="time" stackId="3" startPc="268436502"/>
-<entry endPc="268438306" name="distStr" stackId="5" startPc="268436502"/>
-<entry endPc="268439511" name="i" stackId="4" startPc="268439465"/>
-<entry endPc="268439537" name="size" stackId="1" startPc="268439408"/>
-<entry endPc="268439537" name="data" stackId="2" startPc="268439408"/>
-<entry endPc="268439537" name="sumOfData" stackId="3" startPc="268439408"/>
-<entry endPc="268439634" name="floor" stackId="2" startPc="268439592"/>
-<entry endPc="268439700" name="kmOrMilesPerHour" stackId="2" startPc="268439658"/>
-<entry endPc="268439847" name="i" stackId="1" startPc="268439822"/>
+<entry endPc="268437216" name="distanceKmOrMiles" stackId="6" startPc="268437147"/>
+<entry endPc="268437616" name="hours" stackId="8" startPc="268437394"/>
+<entry endPc="268437616" name="minutes" stackId="9" startPc="268437394"/>
+<entry endPc="268437616" name="seconds" stackId="10" startPc="268437394"/>
+<entry endPc="268438312" name="ampm" stackId="4" startPc="268436502"/>
+<entry endPc="268438312" name="clockTime" stackId="2" startPc="268436502"/>
+<entry endPc="268438312" name="duration" stackId="7" startPc="268436502"/>
+<entry endPc="268438312" name="time" stackId="3" startPc="268436502"/>
+<entry endPc="268438312" name="distStr" stackId="5" startPc="268436502"/>
+<entry endPc="268439508" name="floor" stackId="2" startPc="268439466"/>
+<entry endPc="268439574" name="kmOrMilesPerHour" stackId="2" startPc="268439532"/>
+<entry endPc="268439721" name="i" stackId="1" startPc="268439696"/>
+<entry endPc="268439851" name="i" stackId="3" startPc="268439793"/>
+<entry endPc="268439877" name="size" stackId="1" startPc="268439749"/>
+<entry endPc="268439877" name="sumOfData" stackId="2" startPc="268439749"/>
 </localVars>
 <annotations/>
 <functions>
@@ -1386,9 +1384,6 @@
 <param id="color3"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="computeAverageSpeed" parent="ActivityMonitorView">
-<documentation/>
-</functionEntry>
 <functionEntry name="computeHour" parent="ActivityMonitorView">
 <param id="hour"/>
 <documentation/>
@@ -1414,6 +1409,9 @@
 </functionEntry>
 <functionEntry name="getData" parent="DataQueue">
 <documentation><![CDATA[<div class="description"> Get the underlying data array.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getAverageData" parent="DataQueue">
+<documentation/>
 </functionEntry>
 <functionEntry name="initialize" parent="ActivityMonitor">
 <documentation/>
