@@ -1,0 +1,10 @@
+<strings>
+    <string id="AppName">ActivityMonitor</string>
+    <string id="avgSign">Ø</string>
+    <string id="pace">Speed</string>
+    <string id="avgpace">Ø Speed</string>
+    <string id="hr">HR</string>
+    <string id="distance">Distance</string>
+    <string id="duration">Duration</string>
+    <string id="cadence">Cad</string>
+</strings>

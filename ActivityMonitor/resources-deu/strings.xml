@@ -1,0 +1,10 @@
+<resources>
+    <string id="AppName">ActivityMonitor</string>
+    <string id="avgSign">Ø</string>
+    <string id="pace">km/h</string>
+    <string id="avgpace">Ø KM/H</string>
+    <string id="hr">Puls</string>
+    <string id="distance">Strecke</string>
+    <string id="duration">Dauer</string>
+    <string id="cadence">TF</string>
+</resources>
