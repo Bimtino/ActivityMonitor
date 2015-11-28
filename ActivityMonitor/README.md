@@ -1,11 +1,11 @@
 # ActivityMonitor
 
-![ActivityMonitor Screenshot Hell](/doc/ActivityMonitor2.png) ![BikersField Screenshot Dunkel](/doc/ActivityMonitor4.png)
+![ActivityMonitor Screenshot White](/doc/ActivityMonitorMetricWB.png) ![ActivityMonitor Screenshot Black](/doc/ActivityMonitorMetricBB.png)
 
 This is free a Data Field for the Fenix 3 that shows multiple values on a single field. 
 ActivityMonitor is open source and its code resides at github: https://github.com/Bimtino/ActivityMonitor.git
 
-The Data Field is based on two other Data Fields. Special thanks for developers of the following ConnectIQ projects:
+The Data Field is based on an other Data Fields. Special thanks for developers of the following ConnectIQ projects:
 https://apps.garmin.com/en-US/apps/aacfc2de-b61e-40cc-a83d-52f46f9d263d
 
 Release versions are published in the [Garmin App Store](https://.......)
