@@ -21,6 +21,7 @@ https://forums.garmin.com/showthread.php?........
 ## Features
 * TIME: 12/24h mode based on system settings.
 * SPEED: speed in km/h or mph based on system settings (as average of the last 10 values)
+* HEART RATE: current pulse in bpm.
 * AVG SPEED: average speed over the whole activity.
 * DISTANCE: elapsed distance in km or miles based on system settings.
 * CADENCE: cadence in rpm.
@@ -58,14 +59,17 @@ Hopefully you see the ActivityMonitor data field and can read the values.
 
 ===============================================
 
+## Changelog 1.0.3
+* minor UI redesign for better reading
+
 ## Changelog 1.0.2
-Inital release of the activity monitor with following values:
+Initial release of the activity monitor with following values:
 * Time of day (12/24 hours mode)
 * Current Speed (average over the last 10 values)
-* Average Speed
 * Heart Rate
+* Average Speed
 * Distance
+* Cadence
 * Timer
 * Battery Status
 * GPS Status 
-* Cadence

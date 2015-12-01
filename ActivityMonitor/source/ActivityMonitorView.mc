@@ -12,7 +12,7 @@ class ActivityMonitorView extends Ui.DataField {
     hidden const HOT_FONT = Graphics.FONT_NUMBER_HOT;
     hidden const ZERO_TIME = "0:00";
     hidden const ZERO_DISTANCE = "0.0";
-    hidden const RELEASE = "1.0.2";
+    hidden const RELEASE = "1.0.3";
     
     hidden var kmOrMileInMeters = 1000;
     hidden var is24Hour = true;
@@ -25,8 +25,9 @@ class ActivityMonitorView extends Ui.DataField {
     hidden var batteryBackground = Graphics.COLOR_WHITE;
     hidden var statusColorGood = Graphics.COLOR_GREEN;
     hidden var hrColor = Graphics.COLOR_RED;
-    hidden var cadColor = Graphics.COLOR_BLUE;
+    hidden var cadColor = Graphics.COLOR_DK_GREEN;
     hidden var headerColor = Graphics.COLOR_DK_GRAY;
+    hidden var outlineColor = Graphics.COLOR_DK_GRAY;
         
     hidden var paceStr = "", avgPaceStr = "", hrStr = "", distanceStr = "", durationStr = "m:ss", cadenceStr = "", avgSignStr = "";
     
@@ -107,6 +108,7 @@ class ActivityMonitorView extends Ui.DataField {
             hrColor = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_RED : Graphics.COLOR_RED;
             headerColor = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_LT_GRAY: Graphics.COLOR_DK_GRAY;
             statusColorGood = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_DK_GREEN : Graphics.COLOR_GREEN;
+            outlineColor = (backgroundColor == Graphics.COLOR_BLACK) ? Graphics.COLOR_WHITE : Graphics.COLOR_BLACK;
         }
     }
         
@@ -130,15 +132,16 @@ class ActivityMonitorView extends Ui.DataField {
         
         //speed
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(18, 72, VALUE_FONT, getSpeed(paceData.getAverageData()), LEFT);
+        dc.drawText(13, 72, VALUE_FONT, getSpeed(paceData.getAverageData()), LEFT);
         
         //hr
-        dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(107, 70, HOT_FONT, hr.format("%d"), CENTER);
+		drawOutlineText(107, 70, HOT_FONT, hr.format("%d"), CENTER, hrColor, dc, 1);
+        //dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
+        //dc.drawText(107, 70, HOT_FONT, hr.format("%d"), CENTER);
         
         //avg speed
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(200 , 72, VALUE_FONT, getSpeed(avgSpeed), RIGHT);
+        dc.drawText(205 , 72, VALUE_FONT, getSpeed(avgSpeed), RIGHT);
         
         //distance
         var distStr;
@@ -152,11 +155,10 @@ class ActivityMonitorView extends Ui.DataField {
         } else {
             distStr = ZERO_DISTANCE;
         }
-        dc.drawText(18, 134, VALUE_FONT, distStr, LEFT);
+        dc.drawText(13, 134, VALUE_FONT, distStr, LEFT);
         
         //cad
-        dc.setColor(cadColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(107, 134, VALUE_FONT, cadence.format("%d"), CENTER);
+		drawOutlineText(107, 134, VALUE_FONT, cadence.format("%d"), CENTER, cadColor, dc, 1);
         
         //duration
         var duration;
@@ -174,14 +176,14 @@ class ActivityMonitorView extends Ui.DataField {
                 duration = minutes.format("%d") + ":" + seconds.format("%02d");
         		durationStr = "m:ss";
             } else {
-                duration = hours.format("%d") + ":" + minutes.format("%02d") + ":" + seconds.format("%02d");
-        		durationStr = "h:mm:ss";
+                duration = hours.format("%d") + ":" + minutes.format("%02d");
+        		durationStr = "h:mm";
             }
         } else {
             duration = ZERO_TIME;
         } 
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(200, 134, VALUE_FONT, duration, RIGHT);
+        dc.drawText(205, 134, VALUE_FONT, duration, RIGHT);
 
         //signs background
         dc.setColor(inverseBackgroundColor, inverseBackgroundColor);
@@ -283,8 +285,19 @@ class ActivityMonitorView extends Ui.DataField {
             var kmOrMilesPerHour = speedMetersPerSecond * 60.0 * 60.0 / kmOrMileInMeters;
             return kmOrMilesPerHour.format("%.1f");
         }
-        return ZERO_TIME;
+        return ZERO_TIME; 
     }
+     
+    function drawOutlineText(x, y, font, text, pos, color, dc, delta) {
+     	dc.setColor(outlineColor, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(x + delta, y, font, text, pos);
+        dc.drawText(x - delta, y, font, text, pos);
+        dc.drawText(x, y + delta, font, text, pos);
+        dc.drawText(x, y - delta, font, text, pos);
+      	dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(x, y, font, text, pos);
+    }
+
 }
 
 //! A circular queue implementation.
