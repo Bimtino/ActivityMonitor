@@ -22,6 +22,7 @@ https://forums.garmin.com/showthread.php?........
 * TIME: 12/24h mode based on system settings.
 * SPEED: speed in km/h or mph based on system settings (as average of the last 10 values)
 * HEART RATE: current pulse in bpm.
+* POWER: if sensor exists, 5 sec average of the power in watt 
 * AVG SPEED: average speed over the whole activity.
 * DISTANCE: elapsed distance in km or miles based on system settings.
 * CADENCE: cadence in rpm.
@@ -58,6 +59,10 @@ Start activity.
 Hopefully you see the ActivityMonitor data field and can read the values.
 
 ===============================================
+
+## Changelog 1.1.0
+* add display of power values (5sec avg) if sensor exists
+* minor UI redesign for better reading
 
 ## Changelog 1.0.3
 * minor UI redesign for better reading

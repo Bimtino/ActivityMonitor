@@ -1,6 +1,7 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Graphics;
 using Toybox.System as System;
+using Toybox.UserProfile as UserProfile;
 
 class ActivityMonitorView extends Ui.DataField {
 
@@ -12,7 +13,7 @@ class ActivityMonitorView extends Ui.DataField {
     hidden const HOT_FONT = Graphics.FONT_NUMBER_HOT;
     hidden const ZERO_TIME = "0:00";
     hidden const ZERO_DISTANCE = "0.0";
-    hidden const RELEASE = "1.0.3";
+    hidden const RELEASE = "1.1.0";
     
     hidden var kmOrMileInMeters = 1000;
     hidden var is24Hour = true;
@@ -26,24 +27,30 @@ class ActivityMonitorView extends Ui.DataField {
     hidden var statusColorGood = Graphics.COLOR_GREEN;
     hidden var hrColor = Graphics.COLOR_RED;
     hidden var cadColor = Graphics.COLOR_DK_GREEN;
+    hidden var pwrColor = Graphics.COLOR_DK_BLUE;
     hidden var headerColor = Graphics.COLOR_DK_GRAY;
     hidden var outlineColor = Graphics.COLOR_DK_GRAY;
         
-    hidden var paceStr = "", avgPaceStr = "", hrStr = "", distanceStr = "", durationStr = "m:ss", cadenceStr = "", avgSignStr = "";
+    hidden var paceStr = "", avgPaceStr = "", hrStr = "", distanceStr = "", durationStr = "m:ss", cadenceStr = "", avgSignStr = "", avgPowerStr = "";
     
     hidden var paceData = new DataQueue(10);
+    hidden var pwrData = new DataQueue(5);
     hidden var avgSpeed= 0;
     hidden var hr = 0;
     hidden var distance = 0;
     hidden var elapsedTime = 0;
     hidden var gpsSignal = 0;
     hidden var cadence = 0;
+    hidden var pwrSnsrExist = false;
+    //hidden var heartRateZones = new [6];
+    hidden var heartRateZones = [103, 126, 141, 150, 158, 195];
     
     hidden var hasBackgroundColorOption = false;
 
     //! Set the label of the data field here.
     function initialize() {
         DataField.initialize();
+        //heartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
     }
 
     //! The given info object contains all the current workout
@@ -53,6 +60,14 @@ class ActivityMonitorView extends Ui.DataField {
             paceData.add(info.currentSpeed);
         } else {
             paceData.reset();
+        }
+        
+        if (info.currentPower != null) {
+            pwrData.add(info.currentPower);
+            pwrSnsrExist = true;
+        } else {
+            pwrData.reset();
+            pwrSnsrExist = false;
         }
         
         avgSpeed = info.averageSpeed != null ? info.averageSpeed : 0;
@@ -134,20 +149,28 @@ class ActivityMonitorView extends Ui.DataField {
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(13, 72, VALUE_FONT, getSpeed(paceData.getAverageData()), LEFT);
         
-        //hr
-		drawOutlineText(107, 70, HOT_FONT, hr.format("%d"), CENTER, hrColor, dc, 1);
+        //hr or pwr
+        if (pwrSnsrExist) {
+			drawOutlineText(107, 70, HOT_FONT, pwrData.getAverageData().format("%d"), CENTER, pwrColor, dc, 1);
+		} else {
+			drawOutlineText(107, 70, HOT_FONT, hr.format("%d"), CENTER, hrColor, dc, 1);			
+		}
         //dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
         //dc.drawText(107, 70, HOT_FONT, hr.format("%d"), CENTER);
         
-        //avg speed
-        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(205 , 72, VALUE_FONT, getSpeed(avgSpeed), RIGHT);
+        //avg speed or hr
+        if (pwrSnsrExist) {
+			drawOutlineText(200, 72, VALUE_FONT, hr.format("%d"), RIGHT, hrColor, dc, 1);			
+		} else {
+        	dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
+        	dc.drawText(205 , 72, VALUE_FONT, getSpeed(avgSpeed), RIGHT);
+		}
         
         //distance
         var distStr;
         if (distance > 0) {
             var distanceKmOrMiles = distance / kmOrMileInMeters;
-            if (distanceKmOrMiles < 100) {
+            if (distanceKmOrMiles < 20) {
                 distStr = distanceKmOrMiles.format("%.2f");
             } else {
                 distStr = distanceKmOrMiles.format("%.1f");
@@ -155,6 +178,7 @@ class ActivityMonitorView extends Ui.DataField {
         } else {
             distStr = ZERO_DISTANCE;
         }
+        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(13, 134, VALUE_FONT, distStr, LEFT);
         
         //cad
@@ -198,16 +222,17 @@ class ActivityMonitorView extends Ui.DataField {
         // headers:
         dc.setColor(headerColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(30, 40, HEADER_FONT, distanceUnits == System.UNIT_METRIC ? "km/h" : "mph", LEFT);
-        dc.drawText(109, 32, HEADER_FONT, "bpm", CENTER); 
-        dc.drawText(188, 40, HEADER_FONT, avgSignStr + (distanceUnits == System.UNIT_METRIC ? " km/h" : " mph"), RIGHT);
+        dc.drawText(109, 32, HEADER_FONT, pwrSnsrExist ? "watt" : "bpm", CENTER); 
+        dc.drawText(188, 40, HEADER_FONT, pwrSnsrExist ? "bpm" : (avgSignStr + (distanceUnits == System.UNIT_METRIC ? " km/h" : " mph")), RIGHT);
         dc.drawText(30, 169, HEADER_FONT, distanceUnits == System.UNIT_METRIC ? "km" : "mi", LEFT);
         dc.drawText(109, 169, HEADER_FONT, "rpm", CENTER);
         dc.drawText(188, 169, HEADER_FONT, durationStr, RIGHT);
         dc.drawText(109, 212, HEADER_FONT, RELEASE, CENTER);
         
-        //grid
-        dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(0, 109, dc.getWidth(), 109);
+        //heart rate zones
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        //dc.drawLine(0, 109, dc.getWidth(), 109);
+        dc.fillRectangle(0, 106, dc.getWidth(), 6);
     }
     
     function drawBattery(battery, dc, xStart, yStart, width, height) {                
