@@ -2,7 +2,7 @@
 
 ![ActivityMonitor Screenshot White](doc/ActivityMonitorMetricWB.png) ![ActivityMonitor Screenshot Black](doc/ActivityMonitorStatuteBB.png)
 
-This is free a Data Field for the Fenix 3 that shows multiple values on a single field. 
+This is free a Data Field for the D2 Bravo, fenix 3 / HR that shows multiple values on a single field. 
 Focus of this Data Field is the representation of the control of training with heart rate, power(later release) and Cadence.
 ActivityMonitor is open source and its code resides at github: https://github.com/Bimtino/ActivityMonitor.git
 
@@ -22,6 +22,7 @@ https://forums.garmin.com/showthread.php?........
 * TIME: 12/24h mode based on system settings.
 * SPEED: speed in km/h or mph based on system settings (as average of the last 10 values)
 * HEART RATE: current pulse in bpm.
+* HEART RATE BAR: Display of the heart rate zones based on the user profile settings.
 * POWER: if sensor exists, 5 sec average of the power in watt 
 * AVG SPEED: average speed over the whole activity.
 * DISTANCE: elapsed distance in km or miles based on system settings.
@@ -59,6 +60,9 @@ Start activity.
 Hopefully you see the ActivityMonitor data field and can read the values.
 
 ===============================================
+
+## Changelog 1.2.0
+* Display based on the user profile settings the heart rate zone
 
 ## Changelog 1.1.0
 * add display of power values (5sec avg) if sensor exists

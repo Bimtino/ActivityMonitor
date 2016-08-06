@@ -2,6 +2,8 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Graphics;
 using Toybox.System as System;
 using Toybox.UserProfile as UserProfile;
+using Toybox.Lang as Lang;
+
 
 class ActivityMonitorView extends Ui.DataField {
 
@@ -13,7 +15,7 @@ class ActivityMonitorView extends Ui.DataField {
     hidden const HOT_FONT = Graphics.FONT_NUMBER_HOT;
     hidden const ZERO_TIME = "0:00";
     hidden const ZERO_DISTANCE = "0.0";
-    hidden const RELEASE = "1.1.0";
+    hidden const RELEASE = "1.2.1";
     
     hidden var kmOrMileInMeters = 1000;
     hidden var is24Hour = true;
@@ -42,15 +44,25 @@ class ActivityMonitorView extends Ui.DataField {
     hidden var gpsSignal = 0;
     hidden var cadence = 0;
     hidden var pwrSnsrExist = false;
-    //hidden var heartRateZones = new [6];
-    hidden var heartRateZones = [103, 126, 141, 150, 158, 195];
+    hidden var heartRateZones = new [7];
+    //hidden var heartRateZones = [50, 103, 126, 141, 150, 158, 195];
+    hidden var colorZones6 = [Graphics.COLOR_GREEN, Graphics.COLOR_DK_GREEN, Graphics.COLOR_YELLOW, Graphics.COLOR_ORANGE, Graphics.COLOR_RED, Graphics.COLOR_DK_RED];
     
     hidden var hasBackgroundColorOption = false;
 
     //! Set the label of the data field here.
     function initialize() {
+    	var userHeartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
+    	var profile = UserProfile.getProfile();
         DataField.initialize();
-        //heartRateZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
+        if( profile.restingHeartRate != null ) {
+        	heartRateZones[0] = profile.restingHeartRate;
+        } else {
+            heartRateZones[0] = 55;
+        }
+    	for ( var i = 1; i < heartRateZones.size(); i++ ) {
+    		heartRateZones[i] = userHeartRateZones[i-1];
+    	}
     }
 
     //! The given info object contains all the current workout
@@ -230,9 +242,21 @@ class ActivityMonitorView extends Ui.DataField {
         dc.drawText(109, 212, HEADER_FONT, RELEASE, CENTER);
         
         //heart rate zones
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        //dc.drawLine(0, 109, dc.getWidth(), 109);
-        dc.fillRectangle(0, 106, dc.getWidth(), 6);
+        drawBar(hr, heartRateZones, dc, dc.getWidth(), 6);
+    }
+
+    function drawBar(value, zones, dc, width, height) {  
+    	//var range = zones[zones.size()-1] - zones[0];
+    	//System.println(range);
+    	var coeff = (dc.getWidth()).toFloat() / (zones[zones.size()-1] - zones[0]).toFloat();
+    	var xpos = 0.0f;
+    	for ( var i = 1; i < zones.size(); i++ ) {
+    		xpos = coeff * value.toFloat();
+       		dc.setColor(colorZones6[i-1], Graphics.COLOR_TRANSPARENT);
+        	dc.fillRectangle((zones[i-1]-zones[0]) * coeff, (dc.getHeight()-height)/2, (zones[i]-zones[i-1]) * coeff, height);    	
+		}
+        dc.setColor(outlineColor, Graphics.COLOR_TRANSPARENT);
+        dc.fillRectangle((value-zones[0])*coeff-height/2, dc.getHeight()/2-height, height, height*2);
     }
     
     function drawBattery(battery, dc, xStart, yStart, width, height) {                
